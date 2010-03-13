@@ -1,0 +1,105 @@
+Starting MAKE...
+creating project.mk 
+
+lib/cmpprg_1.asm
+
+lib/counter16_1.asm
+
+lib/counter16_1int.asm
+
+lib/counter8_3.asm
+
+lib/counter8_3int.asm
+
+lib/digbuf_1.asm
+
+lib/digbuf_1int.asm
+
+lib/diginv_1.asm
+
+lib/diginv_1int.asm
+
+lib/e2prom_1.asm
+
+lib/lpf2_1.asm
+
+lib/lpf2_2.asm
+
+lib/pga_1.asm
+
+lib/psocconfig.asm
+
+lib/psocconfigtbl.asm
+
+lib/psocgpioint.asm
+
+lib/pwm8_1.asm
+
+lib/pwm8_1int.asm
+
+lib/refmux_1.asm
+
+lib/uart_1.asm
+
+lib/uart_1int.asm
+
+lib/uart_1plus.asm
+
+module lib/obj/uart_1plus.obj defines no symbols (warning)
+
+./boot.asm
+
+./command.c
+
+./decode.c
+
+./eeprom.c
+
+./flashfill.asm
+
+./init.c
+
+./main.c
+
+./parity.c
+
+./readkey.c
+
+./siren.c
+
+sed: can't read HTlinkOpts.lkp: No such file or directory
+
+expanded_libs = 
+
+Linking..
+
+HI-TECH C COMPILER (Cypress PSOC) Lite  V9.61PL1
+
+Copyright (C) 1984-2008 HI-TECH SOFTWARE
+
+(1273) Omniscient Code Generation not available in Lite mode (warning)
+
+
+
+Memory Summary:
+
+    Program space        used  15E3h (  5603) of  4000h bytes   ( 34.2%)
+
+    Data space           used   160h (   352) of   100h bytes   (137.5%)
+
+
+
+Comparative memory usage (excludes absolute areas and stack variables)
+
+    ROM used:  4649 bytes
+
+    RAM used:   278 bytes
+
+HI-TECH C PRO compiler averages 40% less code than this Lite mode
+
+PRO may reduce your program size by 878 bytes
+
+To evaluate HI-TECH C PRO please visit http://cypress.htsoft.com/portal/convert
+
+ 
+CY8C27243 - 0 error(s) 0 warning(s) 19:26:24

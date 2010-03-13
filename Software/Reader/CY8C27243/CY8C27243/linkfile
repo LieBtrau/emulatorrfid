@@ -1,0 +1,3 @@
+-H+./output/CY8C27243.sym -M./output/CY8C27243.map -O./output/CY8C27243.obj 
+ ./obj/command.p1 ./obj/decode.p1 ./obj/eeprom.p1 ./obj/flashfill.obj ./obj/init.p1 ./obj/main.p1 ./obj/parity.p1 ./obj/readkey.p1 ./obj/siren.p1   
+ C:/DOCUME~1/Admin/MIJNDO~1/PSoC/CY8C27~1/Software/Reader/CY8C27~1/CY8C27~1/lib/libpsoc.lib C:/DOCUME~1/Admin/MIJNDO~1/PSoC/CY8C27~1/Software/Reader/CY8C27~1/CY8C27~1/lib/libpsoc.lpp C:\PROGRA~1\HI-TEC~1\HCPSOC\PRO\9.61/lib/psoc-c.lib  
