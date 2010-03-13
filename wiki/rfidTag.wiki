@@ -1,0 +1,13 @@
+#summary Information about the RFID-tag
+
+== Images ==
+<img src="http://emulatorrfid.googlecode.com/files/tagClosed.JPG" height="150" />
+<img src="http://emulatorrfid.googlecode.com/files/TagOpened.JPG" height="150" />
+<img src="http://emulatorrfid.googlecode.com/files/TagWithCoin.JPG" height="150" />
+== Downloads == 
+ * [http://emulatorrfid.googlecode.com/files/rfid_tag_schematic_3.00.pdf Schematic]
+ * [http://emulatorrfid.googlecode.com/files/rfid_tag_assembly_3.00.pdf Assembly drawing]
+ * [http://emulatorrfid.googlecode.com/files/rfid_tag_gerber_3.00.zip Gerber data]
+== Design info ==
+I based my design on [http://micah.navi.cx/2008/09/using-an-avr-as-an-rfid-tag/ Micah's tag], which is a very basic tag.  I had to make some improvements because the reader at the office has a very limited reading range.  Even my own home made reader performs better.  After trying some coils of Coilcraft, I finally stumbled on the [http://www.ti.com/rfid/ RFID inlays of TI].  These 134.2kHz-tags have coils that were just what I needed.  So I ordered such a tag, cut loose the transponder and soldered my own transponder to it.  It worked!
+The tag has just the perfect size for one of the company's numerous gadgets.  So now a have a miniature LED-light and a second tag all in one.
