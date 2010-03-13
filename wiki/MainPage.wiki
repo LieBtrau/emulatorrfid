@@ -9,6 +9,19 @@ The project was split up in two main parts:
 
 = Details =
 == RFID-reader ==
+<img src="http://emulatorrfid.googlecode.com/files/readerClosed.JPG" height="150" align="left" title="Closed RFID-reader"/>
 
+<img src="http://emulatorrfid.googlecode.com/files/readerOpened.JPG" height="150" align="middle" title="RFID-reader opened up"/>
+
+=== MCU ===
+The RFID-reader was designed in such a way that the necessary hardware was limited as much as possible.  So the [http://www.cypress.com/?id=1573&source=header Cypress PSoc 1] was chosen.  This device combines an 8bit-MCU with configurable digital and analog blocks.  So the analog filtering of incoming RFID-data takes place inside this device.
+
+=== Communication + Power ===
+USB was chosen for powering and communication, as there is only one connector needed to perform both of these functionalities.  [http://www.cypress.com Cypress] has devices with USB-on board, but these devices are only available in QFN-packages which are very hard to solder by hand.
+The FT232R-chip of FTDI takes care of the USB-side of the communication.  The MCU only needs to implement a UART.
+On the PC-side, hyperterminal is used to see the ID of the tag currently being read and to see the ID's already in the reader's memory.
+
+=== Antenna coil ===
+It's impossible to calculate what the ideal coil is for the communication, because the parameters of the coil inside the tag are unknown.  Surfing around can give you some useful information about what manufacturers of RFID-systems are using.  Trying to make a coil that mimics the coil inside the transponder will give you a good start.
 
 == RFID-tag ==
